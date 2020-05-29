@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ankit-ke-doctors/static/css/main.a1632e7b.chunk.css",
+    "main.css": "/ankit-ke-doctors/static/css/main.3b2c8bb0.chunk.css",
     "main.js": "/ankit-ke-doctors/static/js/main.d1bc841c.chunk.js",
     "main.js.map": "/ankit-ke-doctors/static/js/main.d1bc841c.chunk.js.map",
     "runtime-main.js": "/ankit-ke-doctors/static/js/runtime-main.10174a41.js",
@@ -8,16 +8,16 @@
     "static/js/2.e343bb99.chunk.js": "/ankit-ke-doctors/static/js/2.e343bb99.chunk.js",
     "static/js/2.e343bb99.chunk.js.map": "/ankit-ke-doctors/static/js/2.e343bb99.chunk.js.map",
     "index.html": "/ankit-ke-doctors/index.html",
-    "precache-manifest.90b7572d71bae22f6562e45719628e49.js": "/ankit-ke-doctors/precache-manifest.90b7572d71bae22f6562e45719628e49.js",
+    "precache-manifest.8e68818f5c73f39b4a8a36a91960fda5.js": "/ankit-ke-doctors/precache-manifest.8e68818f5c73f39b4a8a36a91960fda5.js",
     "service-worker.js": "/ankit-ke-doctors/service-worker.js",
-    "static/css/main.a1632e7b.chunk.css.map": "/ankit-ke-doctors/static/css/main.a1632e7b.chunk.css.map",
+    "static/css/main.3b2c8bb0.chunk.css.map": "/ankit-ke-doctors/static/css/main.3b2c8bb0.chunk.css.map",
     "static/js/2.e343bb99.chunk.js.LICENSE.txt": "/ankit-ke-doctors/static/js/2.e343bb99.chunk.js.LICENSE.txt",
     "static/media/download.svg": "/ankit-ke-doctors/static/media/download.7e2c8ed6.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.10174a41.js",
     "static/js/2.e343bb99.chunk.js",
-    "static/css/main.a1632e7b.chunk.css",
+    "static/css/main.3b2c8bb0.chunk.css",
     "static/js/main.d1bc841c.chunk.js"
   ]
 }
