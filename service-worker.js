@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ankit-ke-doctors/precache-manifest.ee0f6a0e6e69f88fa2af1bf1c59e46a6.js"
+  "/ankit-ke-doctors/precache-manifest.90b7572d71bae22f6562e45719628e49.js"
 );
 
 self.addEventListener('message', (event) => {
