@@ -7,60 +7,62 @@ export default class More extends Component {
 			<section id='more'>
 				<div className='outer'>
 					<div className='inner flex'>
-						<div className='more-item'>
-							<div className='more-image'>
-                                <img src={graphic} alt=""/>
-                                <p>Hello</p>
-                                </div>
+						<div className='flex'>
+							<div className='more-item'>
+								<div className='more-image'>
+									<img src={graphic} alt='' />
+									<p>Hello</p>
+								</div>
+							</div>
+							<div className='more-item'>
+								<div className='more-image'>
+									<img src={graphic} alt='' />
+									<p>Hello</p>
+								</div>
+							</div>
 						</div>
-						<div className='more-item'>
-							<div className='more-image'>
-                                <img src={graphic} alt=""/>
-                                <p>Hello</p>
-                                </div>
-						</div>
-						<div className='more-item'>
-							<div className='more-image'>
-                                <img src={graphic} alt=""/>
-                                <p>Hello</p>
-                                </div>
-						</div>
-						<div className='more-item'>
-							<div className='more-image'>
-                                <img src={graphic} alt=""/>
-                                <p>Hello</p>
-                                </div>
-						</div>
-					</div>
-                    <div className='inner flex'>
-						<div className='more-item'>
-							<div className='more-image'>
-                                <img src={graphic} alt=""/>
-                                <p>Hello</p>
-                                </div>
-						</div>
-						<div className='more-item'>
-							<div className='more-image'>
-                                <img src={graphic} alt=""/>
-                                <p>Hello</p>
-                                </div>
-						</div>
-						<div className='more-item'>
-							<div className='more-image'>
-                                <img src={graphic} alt=""/>
-                                <p>Hello</p>
-                                </div>
-						</div>
-						<div className='more-item'>
-							<div className='more-image'>
-                                <img src={graphic} alt=""/>
-                                <p>Hello</p>
-                                </div>
+						<div className='flex'>
+							<div className='more-item'>
+								<div className='more-image'>
+									<img src={graphic} alt='' />
+									<p>Hello</p>
+								</div>
+							</div>
+							<div className='more-item'>
+								<div className='more-image'>
+									<img src={graphic} alt='' />
+									<p>Hello</p>
+								</div>
+							</div>
 						</div>
 					</div>
-	
-            	</div>
-                
+					<div className='inner flex'>
+						<div className='more-item'>
+							<div className='more-image'>
+								<img src={graphic} alt='' />
+								<p>Hello</p>
+							</div>
+						</div>
+						<div className='more-item'>
+							<div className='more-image'>
+								<img src={graphic} alt='' />
+								<p>Hello</p>
+							</div>
+						</div>
+						<div className='more-item'>
+							<div className='more-image'>
+								<img src={graphic} alt='' />
+								<p>Hello</p>
+							</div>
+						</div>
+						<div className='more-item'>
+							<div className='more-image'>
+								<img src={graphic} alt='' />
+								<p>Hello</p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</section>
 		)
 	}
