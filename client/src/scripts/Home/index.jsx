@@ -5,6 +5,7 @@ import Main from './Main'
 import Template from './Template'
 import Services from './Services'
 import More from './More'
+import Customer from './Customer'
 
 export default class Home extends Component {
 	constructor() {
@@ -39,7 +40,9 @@ export default class Home extends Component {
 				<Template
 					heading="Customers"
 					subheading="What awesome people say?"
-				></Template>
+				>
+					<Customer></Customer>
+				</Template>
 			</div>
 		)
 	}

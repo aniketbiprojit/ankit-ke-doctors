@@ -2,7 +2,7 @@ import React from 'react'
 import { Component } from 'react'
 
 import { HashRouter as Router, Switch, Route } from 'react-router-dom'
-import Home from './Home/Home'
+import Home from './Home/'
 
 const logs = (response) => {
 	console.log(response)

@@ -1,0 +1,14 @@
+section#customer{
+    width: 100%;
+    overflow-x: hidden;
+    .outer{
+        .inner{
+            padding: 2rem 1.25rem;
+            .bubble{
+                width: 400px;
+                height: 200px;
+                
+            }
+        }
+    }
+}
