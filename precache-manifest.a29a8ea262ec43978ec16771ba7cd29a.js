@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3e9fa78881eb0c73440e6662eccf36d9",
+    "revision": "d785279326531a14764ef4eb47e3bc47",
     "url": "/ankit-ke-doctors/index.html"
   },
   {
-    "revision": "14f544de99857e1005be",
-    "url": "/ankit-ke-doctors/static/css/main.4cbbd943.chunk.css"
+    "revision": "66098269e6397a32ec53",
+    "url": "/ankit-ke-doctors/static/css/main.e1ea23b2.chunk.css"
   },
   {
     "revision": "987a66fc96daa71b8123",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ankit-ke-doctors/static/js/2.e343bb99.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "14f544de99857e1005be",
-    "url": "/ankit-ke-doctors/static/js/main.b0cfc76f.chunk.js"
+    "revision": "66098269e6397a32ec53",
+    "url": "/ankit-ke-doctors/static/js/main.c933cfd5.chunk.js"
   },
   {
     "revision": "0b666f6ba384ad922092",
