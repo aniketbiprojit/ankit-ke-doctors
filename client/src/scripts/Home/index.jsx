@@ -38,8 +38,8 @@ export default class Home extends Component {
 					<More></More>
 				</Template>
 				<Template
-					heading="Customers"
-					subheading="What awesome people say?"
+					heading='Customers'
+					subheading='What awesome people say?'
 					style={{ backgroundColor: '#eef2f5' }}
 				>
 					<Customer width={this.state.width}></Customer>

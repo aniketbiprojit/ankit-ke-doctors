@@ -3,28 +3,29 @@ section#customer {
 	overflow-x: hidden;
 	z-index: 1;
 	.outer {
+			@media screen and (max-width: 375px) {
+                width: 100%;
+            }
 		.inner {
-			padding: 2rem 1.25rem;
+			padding: 2rem 0rem;
 			@media screen and (max-width: 1200px) {
-				padding: 2rem 1rem;
-            }
-            @media screen and (max-width:1024px) {
-                display: block;
-                .bubble{
-                    margin: 0 auto;
-                }
-            }
+				padding: 2rem 0rem;
+			}
+			@media screen and (max-width: 1024px) {
+				display: block;
+				.bubble {
+					margin: 0 auto;
+				}
+			}
 			justify-content: space-evenly;
 			margin: 0 auto;
 			flex-wrap: wrap;
 			.bubble {
 				margin-bottom: 50px;
 				width: 400px;
-				height: 220px;
 				padding: 3rem 2rem;
-				@media screen and (max-width: 1200px) and (min-width:1025px) {
+				@media screen and (max-width: 1200px) and (min-width: 1025px) {
 					width: 380px;
-					height: 220px;
 					padding: 2.2rem 1rem;
 				}
 				background-color: white;
@@ -54,7 +55,27 @@ section#customer {
 					bottom: 0;
 					left: 0;
 					transform: translate(-50%, 50%);
-				}
+                }
+				@media screen and (max-width: 575px) {
+                    width:300px;
+					padding: 1rem 2rem;
+                }
+                @media screen and (max-width: 450px) {
+                    width:80%;
+					padding: 0.5rem 1rem;
+                }
+				@media screen and (max-width: 390px) {
+                    width: 250px;
+                    font-size: 13px;
+					padding: 1rem 0.5rem;
+                    padding-bottom: 2rem;
+                    p,p.name,p.designation{
+                        text-align: center;
+                    }
+                    .corner{
+                        left:50%;
+                    }
+                }
 			}
 		}
 	}
