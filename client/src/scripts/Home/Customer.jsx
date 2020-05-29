@@ -4,8 +4,19 @@ function Bubble(props) {
 	return (
 		<React.Fragment>
 			<div className='bubble'>
-                
-            </div>
+				<p>
+					The erratic rate of mettalic radiation has led to the
+					contrasting belief of perpetual machines. The irony lies
+					within the diabolic nature of nature itself. Such a source
+					could be revolutionize the entirity of humanity. In contrast
+					what we know and what we believe are most likely the reason
+					for this dilemma.
+				</p>
+				<hr />
+				<p className='name'>Anonymous Angel</p>
+				<p className='designation'>Ceo, Space Weapons Program </p>
+				<div className='corner'></div>
+			</div>
 		</React.Fragment>
 	)
 }
@@ -16,8 +27,17 @@ export default class Customer extends Component {
 			<React.Fragment>
 				<section id='customer'>
 					<div className='container outer'>
-						<div className='inner'>
+						<div className='inner flex'>
 							<Bubble></Bubble>
+							<Bubble></Bubble>
+							{this.props.width > 1024 ? (
+								<React.Fragment>
+									<Bubble></Bubble>
+									<Bubble></Bubble>
+								</React.Fragment>
+							) : (
+								''
+							)}
 						</div>
 					</div>
 				</section>

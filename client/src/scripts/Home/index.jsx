@@ -40,8 +40,9 @@ export default class Home extends Component {
 				<Template
 					heading="Customers"
 					subheading="What awesome people say?"
+					style={{ backgroundColor: '#eef2f5' }}
 				>
-					<Customer></Customer>
+					<Customer width={this.state.width}></Customer>
 				</Template>
 			</div>
 		)
