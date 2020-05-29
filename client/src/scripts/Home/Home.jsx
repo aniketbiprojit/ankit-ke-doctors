@@ -4,6 +4,7 @@ import Nav from '../Nav'
 import Main from './Main'
 import Template from './Template'
 import Services from './Services'
+import More from './More'
 
 export default class Home extends Component {
 	constructor() {
@@ -26,6 +27,14 @@ export default class Home extends Component {
 					style={{ backgroundColor: '#eef2f5' }}
 				>
 					<Services></Services>
+				</Template>
+				<Template
+					h2={{ color: 'white' }}
+					style={{ backgroundColor: '#232B55' }}
+					heading='We got more?'
+					subheading='But why honesty? We just do.'
+				>
+					<More></More>
 				</Template>
 			</div>
 		)

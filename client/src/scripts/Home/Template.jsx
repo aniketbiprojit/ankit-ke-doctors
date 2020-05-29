@@ -6,7 +6,7 @@ export default class Template extends Component {
 			<div style={this.props.style} className='baseline'>
 				<section className='template container'>
 					<h1>{this.props.heading}</h1>
-					<h2>{this.props.subheading}</h2>
+					<h2 style={this.props.h2}>{this.props.subheading}</h2>
 					{this.props.children}
 				</section>
 			</div>

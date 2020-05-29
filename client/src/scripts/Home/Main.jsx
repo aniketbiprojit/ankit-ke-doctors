@@ -8,9 +8,9 @@ export default class Main extends Component {
 					<div className='inner'>
 						<div className='left'>
 							<p className='bold'>
-								No square
-								<p>can ever be</p>
-								<p>a round circle.</p>{' '}
+								No square <br />
+								can ever be <br />
+								a round circle. <br />{' '}
 							</p>
 							<p className='normal'>
 								{this.props.width >= 440 ? (
