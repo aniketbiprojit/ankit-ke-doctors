@@ -23,6 +23,7 @@ export default class Home extends Component {
 				<Template
 					heading='What do we do?'
 					subheading='Simple and Easy Workflow'
+					style={{ backgroundColor: '#eef2f5' }}
 				>
 					<Services></Services>
 				</Template>

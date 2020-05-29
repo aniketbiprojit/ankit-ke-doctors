@@ -1,7 +1,7 @@
 import React from 'react'
 import { Component } from 'react'
 
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './Home/Home'
 
 const logs = (response) => {
@@ -14,7 +14,7 @@ class App extends Component {
 			<React.Fragment>
 				<Router>
 					<Switch>
-						<Route logs={logs} path='/' exact component={Home}></Route>
+						<Route logs={logs} path='/' component={Home}></Route>
 					</Switch>
 				</Router>
 			</React.Fragment>

@@ -1,0 +1,57 @@
+.services {
+	.outer {
+		justify-content: space-evenly;
+		flex-wrap: nowrap;
+		@media screen and (max-width: 768px) {
+			display: block;
+		}
+		.cards {
+            .circle{
+                width:100px;
+                height: 100px;
+                border-radius: 50%;
+                background-color: red;
+                margin: 0 auto;
+                margin-bottom: 1rem;
+            }
+			margin-top: 1rem;
+			width: 30%;
+            background-color: white;
+            border-radius: 20px;
+            margin: 1rem auto;
+            margin-bottom: 2rem;
+            padding: 2rem 0;
+			@media screen and (max-width: 768px) {
+                padding: 2rem 2rem 4rem;
+				width: 60%;
+            }
+			.wrapper {
+                margin: 1rem 0;
+                
+			}
+			h1 {
+				color: #242a55;
+				padding: 1rem 2rem;
+				text-align: left;
+				font-size: 2rem;
+				font-weight: 700;
+			}
+			h2 {
+				padding: 1rem 2rem;
+				text-align: left;
+				font-size: 1.4rem;
+			}
+			.data {
+				text-align: left;
+				p {
+					color: #242a55;
+					font-weight: 500;
+					font-size: 1.25rem;
+					line-height: 1.9;
+					letter-spacing: 0.2px;
+					padding: 0rem 2rem;
+				}
+			}
+		}
+	}
+}
