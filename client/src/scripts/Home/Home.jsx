@@ -36,6 +36,10 @@ export default class Home extends Component {
 				>
 					<More></More>
 				</Template>
+				<Template
+					heading="Customers"
+					subheading="What awesome people say?"
+				></Template>
 			</div>
 		)
 	}
