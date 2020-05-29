@@ -6,6 +6,7 @@ import Template from './Template'
 import Services from './Services'
 import More from './More'
 import Customer from './Customer'
+import Join from './Join'
 
 export default class Home extends Component {
 	constructor() {
@@ -43,6 +44,13 @@ export default class Home extends Component {
 					style={{ backgroundColor: '#eef2f5' }}
 				>
 					<Customer width={this.state.width}></Customer>
+				</Template>
+				<Template
+					heading='Join us'
+					subheading=''
+					style={{ backgroundColor: '#eef2f5' }}
+				>
+					<Join></Join>
 				</Template>
 			</div>
 		)

@@ -1,0 +1,55 @@
+section#join {
+	.outer {
+		padding: 2rem 0;
+		.inner {
+			border-radius: 20px;
+			width: 80%;
+			min-height: 125px;
+			padding: 2rem 4rem;
+			@media screen and (max-width: 1024px) {
+				min-height: 125px;
+			}
+			@media screen and (max-width: 768px) {
+				min-height: 100px;
+			}
+			@media screen and (max-width: 575px) {
+				width: 80%;
+				min-height: 50px;
+				padding: 1rem 2rem;
+			}
+			@media screen and (max-width: 375px) {
+				width: 90%;
+				padding: 0.5rem 1rem;
+			}
+			margin: 0 auto;
+			max-width: 800px;
+			background-color: #232b55;
+			color: white;
+			.data {
+				margin: 1rem 0;
+				font-size: 1.7rem;
+				@media screen and (max-width: 575px) {
+					font-size: 1.5rem;
+				}
+				width: fit-content;
+				font-weight: 700;
+				.text {
+					width: fit-content;
+					margin: 1rem 0 1rem;
+					font-weight: 500;
+					font-size: 1.4rem;
+					@media screen and (max-width: 575px) {
+						font-size: 1.2rem;
+						margin: 0.5rem 0 0.5rem;
+					}
+					letter-spacing: 0.3px;
+				}
+				.button {
+					margin: 1rem 0;
+					font-size: 1rem;
+					width: fit-content;
+				}
+			}
+		}
+	}
+}
