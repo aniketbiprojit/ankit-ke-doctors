@@ -1,0 +1,21 @@
+@import 'App.scss';
+@import './home/';
+@import 'Nav.scss';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,600&display=swap');
+
+body {
+	margin: 0;
+	font-family: 'Open Sans';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+#root{
+	width: 100%;
+	overflow-x: none;
+}
